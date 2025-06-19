@@ -32,4 +32,4 @@ jobs:
             - name: Deploy
               env:
                   GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-              run: npm run deploy
+              run: npx gh-pages -d dist -b main --dotfiles -r "https://$GH_TOKEN@github.com/alexmadeira23/alexmadeira23.github.io.git"
