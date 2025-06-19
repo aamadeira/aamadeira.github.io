@@ -29,7 +29,12 @@ jobs:
             - name: Add README.md
               run: cp README.md dist/README.md
 
+            - name: Configure Git
+              run: |
+                  git config --global user.email "github-actions[bot]@users.noreply.github.com"
+                  git config --global user.name "github-actions[bot]"
+
             - name: Deploy
               env:
                   GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-              run: npx gh-pages -d dist -b main --dotfiles -r "https://$GH_TOKEN@github.com/alexmadeira23/alexmadeira23.github.io.git"
+              run: npm run deploy
