@@ -14,7 +14,7 @@
         "build": "astro build",
         "preview": "astro preview",
         "astro": "astro",
-        "deploy": "gh-pages -d dist -b main --dotfiles -r https://$GH_TOKEN@github.com/alexmadeira23/alexmadeira23.github.io.git"
+        "deploy": "gh-pages -d dist -b main --dotfiles"
     },
     "dependencies": {
         "@astrojs/react": "^4.2.1",
