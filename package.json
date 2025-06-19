@@ -14,8 +14,8 @@
         "build": "astro build",
         "preview": "astro preview",
         "astro": "astro",
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d dist -b main -r git@personal.github.com:alexmadeira23/alexmadeira23.github.io.git"
+        "predeploy": "npm run build && touch dist/.nojekyll",
+        "deploy": "gh-pages -d dist -b main --dotfiles -r git@personal.github.com:alexmadeira23/alexmadeira23.github.io.git"
     },
     "dependencies": {
         "@astrojs/react": "^4.2.1",
