@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
-  <rect x="4" y="4" width="56" height="56" rx="14" ry="14" fill="#fff5f5" stroke="#ff6666" stroke-width="4"/>
-  <text x="50%" y="35.4%" text-anchor="middle" dominant-baseline="central"
-        font-family="Helvetica, sans-serif" font-weight="bold" font-size="28.6" fill="#ff4444">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64"><svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <rect x="4" y="4" width="56" height="56" rx="14" ry="14" fill="#fff5f5" stroke="#ff6666" stroke-width="4"></rect>
+  <text x="50%" y="35.4%" text-anchor="middle" dominant-baseline="central" font-family="Helvetica, sans-serif" font-weight="bold" font-size="28.6" fill="#ff4444">
     A
   </text>
-  <text x="50%" y="66%" text-anchor="middle" dominant-baseline="central"
-        font-family="Helvetica, sans-serif" font-weight="bold" font-size="28" fill="#ff4444">
+  <text x="50%" y="66%" text-anchor="middle" dominant-baseline="central" font-family="Helvetica, sans-serif" font-weight="bold" font-size="28" fill="#ff4444">
     M
   </text>
-</svg>
+</svg><style>@media (prefers-color-scheme: light) { :root { filter: none; } }
+@media (prefers-color-scheme: dark) { :root { filter: none; } }
+</style></svg>
