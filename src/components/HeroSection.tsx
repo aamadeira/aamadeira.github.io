@@ -36,7 +36,7 @@ export default function HeroSection() {
                         </motion.h1>
 
                         <motion.p className="text-xl text-muted-foreground mb-6" variants={childVariants}>
-                            Software Engineer 👨‍💻
+                            Software Developer 👨‍💻
                         </motion.p>
 
                         <motion.div className="flex flex-col gap-2 items-center md:items-start" variants={containerVariants}>
