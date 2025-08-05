@@ -13,8 +13,8 @@ export const workExperience = [
         position: "Full-Stack Developer",
         period: "Nov 2023 - Present",
         achievements: [
-            "Contributing to the development of the backend and frontend of the Aptoide Connect platform.",
-            "Built an AI Customer Support Chatbot from scratch and integrated it into the Aptoide Connect platform as a part of my master's thesis.",
+            "Contributing to the development of the backend and frontend of the Aptoide Connect platform, introducing new features and improving existing ones.",
+            "Built Connectoide, an AI Customer Support Chatbot, from scratch and integrated it into the Aptoide Connect platform as a part of my master's thesis.",
         ],
     },
 ];
@@ -25,14 +25,14 @@ export const education = [
         location: "Caparica, Portugal",
         degree: "MSc in Computer Science",
         period: "Sep 2023 - Present",
-        achievements: ["Currently with a GPA of 15/20", "Pursuing my degree entirely as a working student", "Doing my thesis with the company where I am currently employed"],
+        achievements: ["Currently with a GPA of 15/20.", "Pursuing my degree entirely as a working student.", "Doing my thesis with Aptoide, where I am currently employed."],
     },
     {
         institution: "Instituto Superior de Engenharia de Lisboa (ISEL)",
         location: "Lisbon, Portugal",
         degree: "BSc in Computer Science and Engineering",
         period: "Sep 2020 - Jul 2023",
-        achievements: ["Graduated with a GPA of 17/20", "1-week Game Jam contest winner", "Mentor of 4 first-year students"],
+        achievements: ["Graduated with a GPA of 17/20.", "1-week Game Jam contest winner.", "Mentor of 4 first-year students."],
     },
 ];
 
@@ -46,6 +46,18 @@ export const skills = {
 };
 
 export const projects = [
+    {
+        title: "Connectoide",
+        github: undefined,
+        description: [
+            "An AI Customer Support Chatbot for the Aptoide Connect platform, built as part of my master's thesis.",
+            "Developed as a retrieval-augmented generation (RAG) project that uses OpenAI's GPT-4o mini model, integrated with LangChain.",
+            "Uses Aptoide Connect's documentation as source of truth to answer users' questions.",
+            "Enhanced customer support effectiveness, efficiency and overall user experience.",
+            "Became the first line of support for users on the platform.",
+            "Covered the entire project lifecycle, including initial research, architectural design, technical decision-making, deployment, launch, and comprehensive evaluation of system performance.",
+        ],
+    },
     {
         title: "SyncUp",
         //github: "https://github.com/alexmadeira23/syncup",

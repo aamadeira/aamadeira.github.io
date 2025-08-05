@@ -95,9 +95,9 @@ export default function HeroSection() {
                             <span className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-purple-500 to-pink-500 rounded-full"></span>
                             🚀 Welcome! I'm Alex, a full-stack software developer at Aptoide and a Computer Science Master's student at NOVA FCT. I'm that rare combination of hard worker and smart
                             problem-solver who thrives when tackling complex challenges. My secret weapons? Creative thinking paired with critical analysis, meticulous attention to detail, and
-                            exceptional planning skills. I'm known for being a high achiever who learns at lightning speed, always pushing projects beyond expectations. Whether I'm coding elegant
-                            solutions or architecting scalable systems, my passion for technology drives everything I do. Currently wrapping up my final year of studies while continuing to grow
-                            professionally in the software development world.
+                            exceptional planning and organizational skills. I'm known for being a high achiever who learns at lightning speed, always pushing projects beyond expectations. Whether I'm
+                            coding elegant solutions or architecting scalable systems, my passion for technology drives everything I do. Currently wrapping up my final year of studies while continuing
+                            to grow professionally in the software development world.
                         </p>
                     </div>
                 </MotionWrapper>
