@@ -19,35 +19,21 @@ Welcome to my personal website and online resume!
 ```bash
 # Install dependencies
 npm install
-# or
-yarn install
-# or
-bun install
 
 # Start development server
 npm run dev
-# or
-yarn dev
-# or
-bun dev
 ```
 
 ## 📦 Build for Production
 
 ```bash
 npm run build
-# or
-yarn build
-# or
-bun run build
 ```
 
 To preview the production build locally:
 
 ```bash
 npm run preview
-# or
-yarn preview
 ```
 
 ## ✨ Credits
