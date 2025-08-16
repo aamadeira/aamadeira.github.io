@@ -1,5 +1,5 @@
 {
-    "name": "alexmadeira23.github.io",
+    "name": "aamadeira.github.io",
     "type": "module",
     "version": "0.0.1",
     "description": "My personal website and online resume.",
@@ -7,7 +7,7 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/alexmadeira23/alexmadeira23.gihtub.io"
+        "url": "https://github.com/aamadeira/aamadeira.gihtub.io"
     },
     "scripts": {
         "dev": "astro dev",

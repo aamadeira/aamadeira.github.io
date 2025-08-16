@@ -2,7 +2,7 @@ export const personalInfo = {
     name: "Alexandre Madeira",
     location: "Lisbon, Portugal",
     email: "aa.madeira@outlook.com",
-    github: "https://github.com/alexmadeira23",
+    github: "https://github.com/aamadeira",
     linkedin: "https://www.linkedin.com/in/alexandre-madeira-7143a2216/",
 };
 
@@ -60,7 +60,7 @@ export const projects = [
     },
     {
         title: "SyncUp",
-        //github: "https://github.com/alexmadeira23/syncup",
+        //github: "https://github.com/aamadeira/syncup",
         github: undefined,
         description: [
             "A book club app with a weekly book suggestions and chatting system.",
@@ -73,7 +73,7 @@ export const projects = [
     },
     {
         title: "Exploding Battleships",
-        //github: "https://github.com/alexmadeira23/exploding-battleships",
+        //github: "https://github.com/aamadeira/exploding-battleships",
         github: undefined,
         description: [
             "A 2-player cross-platform battleships game.",
@@ -84,7 +84,7 @@ export const projects = [
     },
     {
         title: "Garbage in Paradise",
-        //github: "https://github.com/alexmadeira23/garbage-in-paradise",
+        //github: "https://github.com/aamadeira/garbage-in-paradise",
         github: undefined,
         description: ["A high-score-based game built with the Godot game engine for a 5-day game jam.", "Winner of the LEIM Game Jam 2022 at ISEL."],
     },
