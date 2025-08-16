@@ -1,5 +1,5 @@
 import { personalInfo } from "@/lib/data";
-import { Mail, Github, MapPin, Linkedin } from "lucide-react";
+import { Mail, Github, MapPin, Linkedin, BookText } from "lucide-react";
 import { motion } from "framer-motion";
 import MotionWrapper from "./MotionWrapper";
 
@@ -42,7 +42,7 @@ export default function HeroSection() {
                         <motion.div className="flex flex-col gap-2 items-center md:items-start" variants={containerVariants}>
                             <motion.div className="flex items-center text-sm text-muted-foreground" variants={childVariants} whileHover={{ scale: 1.05, color: "#4b5563" }}>
                                 <MapPin className="h-4 w-4 mr-2" />
-                                📍 {personalInfo.location}
+                                🗺️ {personalInfo.location}
                             </motion.div>
 
                             <motion.a
@@ -52,7 +52,7 @@ export default function HeroSection() {
                                 whileHover={{ scale: 1.05, color: "#4b5563" }}
                             >
                                 <Mail className="h-4 w-4 mr-2" />
-                                ✉️ {personalInfo.email}
+                                📥 {personalInfo.email}
                             </motion.a>
 
                             <motion.a
@@ -77,6 +77,19 @@ export default function HeroSection() {
                             >
                                 <Linkedin className="h-4 w-4 mr-2" />
                                 🔗 LinkedIn
+                            </motion.a>
+
+                            <motion.a
+                                href={personalInfo.blog}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex items-center text-sm text-muted-foreground hover:text-foreground transition-colors"
+                                variants={childVariants}
+                                whileHover={{ scale: 1.05, color: "#4b5563" }}
+                            >
+                                <BookText className="h-4 w-4 mr-2" />
+                                💭 Blog
+                                <NewBadge />
                             </motion.a>
                         </motion.div>
                     </div>
@@ -104,4 +117,8 @@ export default function HeroSection() {
             </div>
         </section>
     );
+}
+
+function NewBadge() {
+    return <span className="ml-2 px-2 py-0.5 rounded-full bg-purple-500 text-white text-xs font-semibold animate-pulse align-middle uppercase">NEW</span>;
 }

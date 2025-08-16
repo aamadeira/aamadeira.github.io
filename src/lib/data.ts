@@ -4,6 +4,7 @@ export const personalInfo = {
     email: "aa.madeira@outlook.com",
     github: "https://github.com/aamadeira",
     linkedin: "https://www.linkedin.com/in/alexandre-madeira-7143a2216/",
+    blog: "https://aamadeira.github.io/blog",
 };
 
 export const workExperience = [
