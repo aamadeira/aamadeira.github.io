@@ -1,5 +1,5 @@
 import { personalInfo } from "@/lib/data";
-import { Mail, Github, MapPin, Linkedin, BookText } from "lucide-react";
+import { Mail, Github, MapPin, Linkedin, BookText, ClipboardList } from "lucide-react";
 import { motion } from "framer-motion";
 import MotionWrapper from "./MotionWrapper";
 
@@ -53,6 +53,18 @@ export default function HeroSection() {
                             >
                                 <Mail className="h-4 w-4 mr-2" />
                                 📥 {personalInfo.email}
+                            </motion.a>
+
+                            <motion.a
+                                href="/cv.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex items-center text-sm text-muted-foreground hover:text-foreground transition-colors"
+                                variants={childVariants}
+                                whileHover={{ scale: 1.05, color: "#4b5563" }}
+                            >
+                                <ClipboardList className="h-4 w-4 mr-2" />
+                                📄 CV/Resume
                             </motion.a>
 
                             <motion.a
