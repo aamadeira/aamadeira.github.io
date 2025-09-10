@@ -56,7 +56,7 @@ export default function HeroSection() {
                             </motion.a>
 
                             <motion.a
-                                href="/cv.pdf"
+                                href="/alexandre-madeira-resume.pdf"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="flex items-center text-sm text-muted-foreground hover:text-foreground transition-colors"
