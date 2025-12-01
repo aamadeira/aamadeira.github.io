@@ -25,7 +25,7 @@ export const education = [
         institution: "NOVA School of Science and Technology (NOVA FCT)",
         location: "Caparica, Portugal",
         degree: "MSc in Computer Science",
-        period: "Sep 2023 - Present",
+        period: "Sep 2023 - Nov 2025",
         achievements: [
             "Completed the degree entirely as a working student.",
             "Accomplished a final GPA of 16 (0-20).",
