@@ -26,19 +26,23 @@ export const education = [
         location: "Caparica, Portugal",
         degree: "MSc in Computer Science",
         period: "Sep 2023 - Present",
-        achievements: ["Currently with a GPA of 15/20.", "Pursuing my degree entirely as a working student.", "Doing my thesis with Aptoide, where I am currently employed."],
+        achievements: [
+            "Completed the degree entirely as a working student.",
+            "Accomplished a final GPA of 16 (0-20).",
+            'Delivered and defended my thesis titled "<i>Connectoide: A Case Study on the Effectiveness of AI Conversational Assistants in Aptoide Connect</i>" with Paulo Trezentos (Aptoide CEO) and João Magalhães (Professor) as my advisors and acheived a final grade of 18 (0-20)',
+        ],
     },
     {
         institution: "Instituto Superior de Engenharia de Lisboa (ISEL)",
         location: "Lisbon, Portugal",
         degree: "BSc in Computer Science and Engineering",
         period: "Sep 2020 - Jul 2023",
-        achievements: ["Graduated with a GPA of 17/20.", "1-week Game Jam contest winner.", "Mentor of 4 first-year students."],
+        achievements: ["Accomplished a final GPA of 16 (0-20).", "1-week Game Jam contest winner.", "Mentored 4 first-year students."],
     },
 ];
 
 export const skills = {
-    programmingLanguages: ["Kotlin", "Java", "TypeScript", "JavaScript", "Python", "Dart"],
+    programmingLanguages: ["TypeScript", "JavaScript", "Kotlin", "Java", "Python", "Dart"],
     frontendDevelopment: ["Angular.js", "React.js", "Flutter", "HTML", "CSS"],
     backendDevelopment: ["Node.js", "Express.js", "Spring Framework"],
     databaseAndStorage: ["PostgreSQL", "MongoDB", "Firebase", "Redis", "AWS S3"],

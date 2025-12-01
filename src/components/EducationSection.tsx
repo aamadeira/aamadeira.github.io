@@ -3,6 +3,8 @@ import TimelineItem from "./TimelineItem";
 import { Award } from "lucide-react";
 import MotionWrapper from "./MotionWrapper";
 import { motion } from "framer-motion";
+import parse from "html-react-parser";
+import DOMPurify from "isomorphic-dompurify";
 
 export default function EducationSection() {
     return (
@@ -48,7 +50,7 @@ export default function EducationSection() {
                                                 transition={{ duration: 0.3, delay: 0.1 * i }}
                                                 viewport={{ once: true }}
                                             >
-                                                {achievement}
+                                                {parse(DOMPurify.sanitize(achievement))}
                                             </motion.li>
                                         ))}
                                     </ul>

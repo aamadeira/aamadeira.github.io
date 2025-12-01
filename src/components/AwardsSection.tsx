@@ -28,7 +28,7 @@ export default function AwardsSection() {
                                 </div>
                                 <p className="text-xs text-muted-foreground mb-1 pl-8">🏢 {award.issuer}</p>
                                 <div className="flex flex-col mt-auto">
-                                    <div className="flex justify-between items-center">
+                                    <div className="flex justify-between items-center mb-1">
                                         <span className="text-xs text-muted-foreground bg-background/50 px-2 py-1 rounded-md">📅 {award.date}</span>
                                         <motion.span className="text-xs px-2 py-1 bg-purple-500/10 rounded-full" whileHover={{ scale: 1.05 }}>
                                             {award.position}

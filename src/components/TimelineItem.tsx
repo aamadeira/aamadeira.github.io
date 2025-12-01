@@ -43,7 +43,7 @@ export default function TimelineItem({ title, subtitle, date, isLast = false, in
                     />
                 )}
             </div>
-            <div className={cn("pb-8", isLast ? "pb-0" : "")}>
+            <div className={cn("flex-1 w-full pb-8", isLast ? "pb-0" : "")}>
                 <motion.div
                     className="flex flex-col gap-0.5"
                     initial={{ opacity: 0, x: -20 }}
