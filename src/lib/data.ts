@@ -29,7 +29,7 @@ export const education = [
         achievements: [
             "Completed the degree entirely as a working student.",
             "Accomplished a final GPA of 16 (0-20).",
-            'Delivered and defended my thesis titled "<i>Connectoide: A Case Study on the Effectiveness of AI Conversational Assistants in Aptoide Connect</i>" with Paulo Trezentos (Aptoide CEO) and João Magalhães (Professor) as my advisors and acheived a final grade of 18 (0-20)',
+            'Delivered and defended my thesis titled "<i>Connectoide: A Case Study on the Effectiveness of AI Conversational Assistants in Aptoide Connect</i>" with Paulo Trezentos (Aptoide CEO) and João Magalhães (Professor) as my advisors and acheived a final grade of 18 (0-20).',
         ],
     },
     {
