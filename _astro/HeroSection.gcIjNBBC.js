@@ -1,4 +1,4 @@
-import{j as e,m as t,p as a}from"./proxy.CKpAMlnx.js";import{M as n}from"./MotionWrapper.yu7oWtGr.js";import{c as o}from"./createLucideIcon.BaZjYi2n.js";import"./index.BVOCwoKb.js";/**
+import{j as e,m as t,p as a}from"./proxy.DAaEseci.js";import{M as n}from"./MotionWrapper.BU7pYNqn.js";import{c as o}from"./createLucideIcon.BaZjYi2n.js";import"./index.BVOCwoKb.js";/**
  * @license lucide-react v0.483.0 - ISC
  *
  * This source code is licensed under the ISC license.
